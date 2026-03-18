@@ -5,9 +5,12 @@
 
 <H1 ALIGN =CENTER>Heart attack prediction using MLP</H1>
 
-<H3>Aim:</H3>  To construct a  Multi-Layer Perceptron to predict heart attack using Python
+<H3>Aim:</H3> 
+
+To construct a  Multi-Layer Perceptron to predict heart attack using Python
 
 <H3>Algorithm:</H3>
+
 Step 1:Import the required libraries: numpy, pandas, MLPClassifier, train_test_split, StandardScaler, accuracy_score, and matplotlib.pyplot.<BR>
 Step 2:Load the heart disease dataset from a file using pd.read_csv().<BR>
 Step 3:Separate the features and labels from the dataset using data.iloc values for features (X) and data.iloc[:, -1].values for labels (y).<BR>
@@ -21,6 +24,7 @@ Step 10:Print the accuracy of the model.<BR>
 Step 11:Plot the error convergence during training using plt.plot() and plt.show().<BR>
 
 <H3>Program: </H3>
+
 ```
 import numpy as np
 import pandas as pd
@@ -68,8 +72,6 @@ classification_rep=classification_report(y_test,y_pred)
 print("Accuracy:",accuracy)
 print("Confusion Matrix:\n",conf_matrix)
 print("Classification Report:\n",classification_rep)
-
-
 
 ```
 
